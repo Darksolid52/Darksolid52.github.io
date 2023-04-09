@@ -1,15 +1,14 @@
-
 body{background-color:hsl(0, 93%, 22%);
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
 
 h1{font-size: 4em;
     text-align: center;
-    padding: 20px;
     text-decoration:underline;
      }
 .none{
     margin: auto;
+    padding: 10px;
     width: 400px;
     background-color: rgb(87, 8, 8);
     box-shadow: 2px 7px 5px rgba(0,0,0,.5);
@@ -27,16 +26,16 @@ p{
 }
 header{
     width: 100%;
-    height: 450px;
+    height: 550px;
     background: linear-gradient(to top, hsla(0, 96%, 39%, 0.37), hsla(0, 0%, 1%, 0.096)); 
-    background: linear-gradient(to top, hsla(0, 87%, 38%, 0.685), hsla(0, 0%, 1%, 0.445));
+    background: linear-gradient(to top, hsla(0, 71%, 36%, 0.685), hsla(0, 0%, 1%, 0.445));
     background-size: cover;
     background-attachment: fixed;
     position: relative;}
 
 header .logo{
     margin: 0;
-    padding: 20px 30px;
+    padding: 0px 20px;
     font-size: 2em;
     color: beige;
 }
@@ -48,11 +47,16 @@ header .container{
 
 }
 header img{
-    width: 5%;
-    padding: 10px 40px;
+    width: 250PX;
+    padding: 10px 10px;
     
 }
 header h1{text-align: center;}
+.none1{
+    margin-top: 0px;
+}
+
+}
 header .menu{
     background:hsl(0, 84%, 22%);
     box-shadow:2px 7px 5px rgba(0,0,0,.5);
