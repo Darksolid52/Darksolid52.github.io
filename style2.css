@@ -47,3 +47,8 @@ p{
 .box .card p{
     font-weight: 1000;
 }
+footer{
+    background-color: beige;
+    font-size: 1.3em;
+    font-family: fantasy;
+}
